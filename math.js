@@ -15,18 +15,19 @@ export function sum(array) {
 export function isOdd(n) {
   const nbr = n%2;
   if (nbr == 0) {
-    console.log('nombre pair');
+    return 0
   } else if (nbr != 0) {
-    console.log('nombre impair');
+    return n
   }
 };
 
 // sommes des nbrs impairs
-/*
-const sumOddNumbers = (array)=>{
-    
+
+export function sumOddNumvers(array) {
+   return array.reduce((acc, cur) => acc+ isOdd(cur) ,0); 
 };
-*/
+
+
 // renvoie le nombre le plus grand
 /*
 const max = (array)=>{
