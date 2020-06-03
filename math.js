@@ -29,14 +29,12 @@ export function sumOddNumvers(array) {
 
 
 // renvoie le nombre le plus grand
-/*
-const max = (array)=>{
+export function sumOddNumvers(array) {
     
 
 
     return 
 };
-*/
 
 
 
